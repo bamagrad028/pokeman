@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pokemon-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-element img{
+    margin:0;
+    padding: 0px;
+    filter: contrast(200%) brightness(0%)
+}
+.pokemon-element h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1;
+    letter-spacing: 0.5rem;
+    margin-top: -1rem;
+    padding: 6px;
+}
